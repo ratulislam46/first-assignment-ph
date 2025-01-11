@@ -1,0 +1,261 @@
+*{
+    margin: 15px 0px 0px 0px;
+    padding: 0px;
+}
+/* menu-bar-style */
+.web-menu-bar{
+    margin: 0px auto;
+    height: 100px;
+    width: 1600px;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-bar-bd{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+    margin-top: 40px;
+}
+.menu-bar-sign{
+    height: 52px;
+    width: 116px;
+    border-radius: 8px;
+    color: rgba(0, 106, 80, 1);
+    padding: 10px;
+    font-weight: semibold;
+    font-size: 18px;
+    border: 1px solid rgba(0, 106, 80, 1);
+}
+.menu-bar-sign:hover{
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+}
+/* "Bangladesh 2.0" */
+.first-section-area{
+    background-color: rgba(198, 228, 214, 1);
+    height: 560px;
+    width: 1280px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+}
+.first-sectiion-ditails{
+    padding: 117px 55px;
+}
+.flag{
+    padding: 80px 50px;
+}
+.first-section-discription{
+    font-size: 24px;
+    font-weight: medium;
+    color: rgba(14, 14, 14, 0.5);
+}
+.first-section-title{
+    font-size: 56px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+    padding-top: 16px;
+}
+.first-section-btn{
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 106, 80, 1);
+    padding: 17px 34px;
+    margin-top: 24px;
+    border: none;
+}
+/* Pillars of "Bangladesh 2.0" this section style */
+.all-box{
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 24px;
+
+}
+.sections-title{
+    margin: 0px auto;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+    height: 48px;
+    width: 1280px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.isie-box{
+    height: 244px;
+    width: 254px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(14, 14, 14, 0.15) ;
+    padding: 24px;
+}
+/* The Vision of Future-this-section-style */
+.vision-sectiton{
+    margin: 0px auto;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+    height: 48px;
+    width: 1280px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.vision-sectiton-title{
+    margin: 0px auto;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: regular;
+    color: rgba(14, 14, 14, 0.7);
+    height: 48px;
+    width: 1280px;
+    padding-top:24px;
+}
+.dgm-all-box{
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.dgm-box{
+    height: 261px;
+    width: 346px;
+    border-radius: 18px;
+}
+.dgm-box-1{
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+}
+.dgm-box-2{
+    background-color: rgba(198, 228, 214, 1);
+    padding: 32px;
+}
+.dgm-box-3{
+    background-color: rgba(247, 235, 207, 1);
+    padding: 32px;
+}
+.dgm-title{
+    font-size: 20px;
+    font-weight: bold;
+    color:rgba(14, 14, 14, 0.8)
+}
+.dgm-discription{
+    font-size: 16px;
+    font-weight: regular;
+    color:rgba(14, 14, 14, 0.7);
+}
+.bgm-btn{
+    height: 41px;
+    width: 122px;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+.bgm-btn-1{
+    color: white;
+    background-color: rgba(84, 144, 245, 1);
+    border: 1px solid rgba(84, 144, 245, 1);
+}
+.bgm-btn-1:hover{
+    background-color: red ;
+    color: black;
+    border: 1px solid red;
+}
+.bgm-btn-2{
+    color: white;
+    background-color: rgba(9, 161, 92, 1);
+    border: 1px solid rgba(9, 161, 92, 1);
+}
+.bgm-btn-2:hover{
+    background-color: red ;
+    color: black;
+    border: 1px solid red;
+}
+.bgm-btn-3{
+    color: white;
+    background-color: rgba(255, 194, 57, 1);
+    border: 1px solid rgba(255, 194, 57, 1);
+}
+.bgm-btn-3:hover{
+    background-color: red ;
+    color: black;
+    border: 1px solid red;
+}
+/*  Dr. Muhammad Yunus section */
+.dr-yunus-advise{
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 24px;
+    padding-left: 24px;
+}
+.dr-yunus-box{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    height: 180px;
+    width: 1280px;
+    margin: 0px auto;
+    justify-content: center;
+    border-radius: 16px;
+}
+/* .dr-yunus-advise{
+    height: 200px;
+    width: 1280px;
+    margin: 0px auto;
+    justify-content: center;
+} */
+.mr-dr-yunus{
+    padding-top: 2px;
+}
+.mr-dr-yunus-position{
+    padding-top: 10px;
+}
+/* Recent News section style */
+
+
+
+/* Subscribe Newsletter section style */
+.subscribes-box{
+   background-color: rgba(198, 228, 214, 1);
+    height: 295px;
+    width: 880px;
+    margin: 0px auto;
+    justify-content: center;
+    border-radius: 16px;
+    text-align: center;
+    padding: 50px 200px;
+}
+.subscribe-letter{
+    font-size: 40px;
+    font-weight: bold;
+}
+.subscribe-discription{
+    font-size: 16px;
+    font-weight: regular;
+    color: rgba(14, 14, 14, 0.7);
+}
+.subscribe-email-btn{
+    color:#FFFFFF;
+    padding: 18px 40px;
+    width: 500px;
+    height: 20px;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid white;
+    margin-right: 0px;
+}
+.subscribe-btn{
+    color: white;
+    background-color: rgba(0, 106, 80, 1);
+    height: 58px;
+    width: 150px;
+    padding: 18px 34px 18px 34px;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: 0px;
+    border: 1px solid rgba(0, 106, 80, 1);
+    /* font-size: 18px; */
+}
+.subscribe-btn:hover{
+    background-color: red;
+    border: 1px solid red;
+}
