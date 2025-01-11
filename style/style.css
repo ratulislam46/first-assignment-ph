@@ -2,6 +2,9 @@
     margin: 15px 0px 0px 0px;
     padding: 0px;
 }
+body{
+    background-color: rgb(243, 240, 240);
+}
 /* menu-bar-style */
 .web-menu-bar{
     margin: 0px auto;
@@ -212,7 +215,40 @@
     padding-top: 10px;
 }
 /* Recent News section style */
-
+.rn-all-box{
+    height: 402px;
+    width: 1280px;
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid white;
+    display: flex;
+    margin: 24px auto;
+    justify-content: space-evenly;
+    margin
+}
+.rn-box-image{
+    padding: 10px;
+    border-radius: 48px;
+}
+.rn-box-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    padding-top: 20px;
+}
+.rn-box-dt{
+    display: inline;
+}
+.rn-box-btn{
+    background-color: rgba(0, 106, 80, 1);
+    border-radius: 8px;
+    height: 48px;
+    width: 139px;
+    margin-top: 40px;
+    border: 1px solid rgba(0, 106, 80, 1);
+    color: white;
+    font-size: 18px;
+}
 
 
 /* Subscribe Newsletter section style */
