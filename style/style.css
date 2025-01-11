@@ -236,8 +236,14 @@ body{
     color: rgba(14, 14, 14, 0.8);
     padding-top: 20px;
 }
+.rn-box-discription{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
 .rn-box-dt{
     display: inline;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
 }
 .rn-box-btn{
     background-color: rgba(0, 106, 80, 1);
@@ -249,7 +255,81 @@ body{
     color: white;
     font-size: 18px;
 }
+.rn-box-btn:hover{
+    background-color: rgb(69, 43, 214);
+    border: 1px solid rgb(69, 43, 214);
+    color: black;
+    font-size: 18px;
+}
+/* Donate Today section style */
+.donate-area{
+    text-align: center;
+}
+.donate-amounts{
+    height:230px;
+    width: 1280px;
+    display: flex;
+   margin: 0px auto;
+}
+.donate-amount{
+    height: 48px;
+    width: 252px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    margin: 20px auto;
+    padding-top:  35px;
+    padding-bottom:  35px;
+    border-radius: 16px;
+    background-color:white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.tk-2{
+    background-color: rgba(198, 228, 214, 1);
+    border: 1px solid rgba(198, 228, 214, 1);
+}
+ .tk-1:hover{
+    background-color: rgb(190, 160, 238);
+    border: 1px solid rgb(190, 160, 238);
+ }
+ .tk-2:hover{
+    background-color: rgb(231, 163, 197);
+    border: 1px solid rgb(228, 198, 213);
+ }
+ .tk-3:hover{
+    background-color: rgb(190, 160, 238);
+    border: 1px solid rgb(190, 160, 238);
+ }
+ .tk-4:hover{
+    background-color: rgb(231, 163, 197);
+    border: 1px solid rgb(228, 198, 213);
+ }
 
+.donate-amount-type{
+    height: 24px;
+    width: 230px;
+    border: 1px solid white;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 20px 422px;
+    margin-top: -80px;
+    font-size: 20px;
+}
+.donate-btn{
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    font-size: 16px;
+    font-weight: semibold;
+    padding: 17px 34px;
+    height: 56px;
+    width: 160;
+    border: 1px solid rgba(0, 106, 80, 1);
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.donate-btn:hover{
+    background-color: red;
+    color: black;
+    border: 1px solid red;
+}
 
 /* Subscribe Newsletter section style */
 .subscribes-box{
@@ -289,9 +369,27 @@ body{
     border-radius: 0px 10px 10px 0px;
     margin-left: 0px;
     border: 1px solid rgba(0, 106, 80, 1);
-    /* font-size: 18px; */
 }
 .subscribe-btn:hover{
     background-color: red;
     border: 1px solid red;
+}
+/* footer section style */
+.footer-area{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    height: 226px ;
+    width: 100%;
+    margin-top: 40px;
+}
+.footer-title{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size:32px;
+    font-weight: bold;
+}
+.footer-hr{
+    color:rgba(14, 14, 14, 0.1);
+    width: 1122px;
+    margin: 0px auto;
 }
